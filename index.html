@@ -1,0 +1,61 @@
+                            <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGRINHO 2026</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>MATEUS</h1>
+            <p>O equilíbrio perfeito entre alta produtividade e preservação ambiental</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="intro">
+            <h2>O MAIOR Desafio do Século XXI</h2>
+            <p>Alimentar uma população crescente exige tecnologia e eficiência no campo. No entanto, a força do nosso agro só se manterá no futuro se caminharmos lado a lado com a conservação dos recursos naturais, do solo e da biodiversidade.</p>
+        </section>
+
+        <section class="pilares">
+            <div class="card">
+                <h3>Produção Eficiente</h3>
+                <p>Uso de tecnologias de precisão, sementes de alta qualidade e rotação de culturas para produzir mais no mesmo espaço.</p>
+            </div>
+            <div class="card">
+                <h3>Sustentabilidade</h3>
+                <p>Preservação de nascentes, redução da pegada de carbono e manejo integrado de pragas.</p>
+            </div>
+            <div class="card">
+                <h3>Equilíbrio</h3>
+                <p>A união que garante a segurança alimentar do planeta sem comprometer as próximas gerações.</p>
+            </div>
+        </section>
+
+        <section class="grafico-container">
+            <h2>Simulador de Equilíbrio</h2>
+            <p>Ajuste os valores para entender como a tecnologia ajuda a manter a produção alta e o impacto ambiental baixo.</p>
+            
+            <div class="controles">
+                <label for="produtividade">Nível de Tecnologia/Produção: <span id="val-prod">80</span>%</label>
+                <input type="range" id="produtividade" min="10" max="100" value="80">
+            </div>
+
+            <div class="canvas-wrapper">
+                <canvas id="graficoEquilibrio"></canvas>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Consciência no Campo & Futuro Sustentável</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
